@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [USTAutoSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HRModTest(failed)">
+    <classes>
+      <class name="com.stackroute.demoproject.Auto01Test">
+        <methods>
+          <include name="testSub"/>
+        </methods>
+      </class> <!-- com.stackroute.demoproject.Auto01Test -->
+    </classes>
+  </test> <!-- HRModTest(failed) -->
+</suite> <!-- Failed suite [USTAutoSuite] -->

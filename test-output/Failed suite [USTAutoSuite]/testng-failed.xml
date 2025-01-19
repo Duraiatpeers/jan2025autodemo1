@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [USTAutoSuite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HRModTest(failed)(failed)">
+    <classes>
+      <class name="com.stackroute.demoproject.Auto01Test">
+        <methods>
+          <include name="testAdd"/>
+        </methods>
+      </class> <!-- com.stackroute.demoproject.Auto01Test -->
+    </classes>
+  </test> <!-- HRModTest(failed)(failed) -->
+  <test thread-count="5" name="FinanceModTest(failed)(failed)">
+    <classes>
+      <class name="com.stackroute.demoproject.Auto01Test">
+        <methods>
+          <include name="testAdd"/>
+        </methods>
+      </class> <!-- com.stackroute.demoproject.Auto01Test -->
+    </classes>
+  </test> <!-- FinanceModTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [USTAutoSuite]] -->
