@@ -3,24 +3,9 @@
 <suite name="USTAutoSuite">
  
   <test thread-count="5" name="HRModTest">
-    <classes>
-      <class name="com.stackroute.demoproject.Auto01Test">
-      
-      <methods>
-          <include name="testAdd"/>
-        </methods>
-       </class>
-      <class name="com.stackroute.demoproject.Auto02Test"/>
-      
-    </classes>
-  </test> <!-- Test -->
-
-  <test thread-count="5" name="FinanceModTest">
-    <classes>
-      <class name="com.stackroute.demoproject.Auto01Test"/>
-      <class name="com.stackroute.demoproject.Auto02Test"/>
-      
-    </classes>
+  	<classes>
+      <class name="com.stackroute.demoproject.BasicAuto03Test" />
+	</classes>
   </test> <!-- Test -->
 
 

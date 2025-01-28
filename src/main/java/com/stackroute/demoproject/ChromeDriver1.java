@@ -1,6 +1,6 @@
 package com.stackroute.demoproject;
 
-public class EdgeDriver implements Driver{
+public class ChromeDriver1 implements Driver,ChromiumDriver{
 	
 	public void open() {
 		
@@ -11,6 +11,10 @@ public class EdgeDriver implements Driver{
 	}
 	
 	public void close() {
+		
+	}
+
+	public void capturescreenshot() {
 		
 	}
 	

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="USTAutoSuite">
+ 
+  <test thread-count="5" name="HRModTest">
+    <classes>
+      <class name="com.stackroute.demoproject.Auto01Test">
+      
+      <methods>
+          <include name="testAdd"/>
+        </methods>
+       </class>
+      <class name="com.stackroute.demoproject.Auto02Test"/>
+      
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="5" name="FinanceModTest">
+    <classes>
+      <class name="com.stackroute.demoproject.Auto01Test"/>
+      <class name="com.stackroute.demoproject.Auto02Test"/>
+      
+    </classes>
+  </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
