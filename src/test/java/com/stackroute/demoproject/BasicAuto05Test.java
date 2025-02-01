@@ -37,6 +37,8 @@ public class BasicAuto05Test {
 		
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//form/div[1]/div/div[2]/input")).sendKeys("Admin");
+
+		
 		driver.findElement(By.xpath("//form/div[2]//input")).sendKeys("admin123");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		
