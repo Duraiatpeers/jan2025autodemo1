@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.stackroute.demoproject.BasicAuto06Test">
+      <class name="com.stackroute.demoproject.BasicAuto07Test">
         <methods>
           <include name="setUp"/>
-          <include name="testPrompt"/>
+          <include name="testMouseAction"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.stackroute.demoproject.BasicAuto06Test -->
+      </class> <!-- com.stackroute.demoproject.BasicAuto07Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
