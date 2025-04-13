@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.stackroute.demoproject.GoogleSearchTest">
+      <class name="com.stackroute.demoproject.DataDrivenTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="searchTest"/>
-          <include name="setUp"/>
+          <include name="testDemo"/>
         </methods>
-      </class> <!-- com.stackroute.demoproject.GoogleSearchTest -->
+      </class> <!-- com.stackroute.demoproject.DataDrivenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
